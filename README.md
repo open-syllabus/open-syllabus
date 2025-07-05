@@ -181,7 +181,7 @@ open-syllabus/
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
+git clone <[repository-url](https://github.com/open-syllabus/open-syllabus.git)>
 cd open-syllabus
 ```
 
