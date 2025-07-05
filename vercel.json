@@ -1,0 +1,19 @@
+{
+  "functions": {
+    "src/app/api/teacher/chatbots/[chatbotId]/documents/route.ts": {
+      "maxDuration": 300
+    },
+    "src/app/api/teacher/documents/[documentId]/process/route.ts": {
+      "maxDuration": 300
+    },
+    "src/app/api/cron/process-documents/route.ts": {
+      "maxDuration": 300
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/cron/process-documents",
+      "schedule": "*/5 * * * *"
+    }
+  ]
+}
