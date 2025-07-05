@@ -1,6 +1,6 @@
 # Open Syllabus - AI-Powered Educational Platform
 
-Open Syllabus is a comprehensive open-source AI-powered educational platform that revolutionizes classroom learning by enabling teachers to create custom AI syllabus bots tailored to their curriculum. The platform combines advanced AI capabilities with robust safety features and scalable architecture to support thousands of concurrent users.
+Open Syllabus is a comprehensive open-source AI-powered educational platform that revolutionises classroom learning by enabling teachers to create custom AI syllabus bots tailored to their curriculum. The platform combines advanced AI capabilities with robust safety features and scalable architecture to support thousands of concurrent users.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ Open Syllabus is a comprehensive open-source AI-powered educational platform tha
 ## Overview
 
 Open Syllabus transforms traditional education by providing teachers with AI-powered teaching assistants that can:
-- Engage students in personalized learning conversations
+- Engage students in personalised learning conversations
 - Provide 24/7 homework help with curriculum-aligned responses
 - Assess student understanding through interactive assessments
 - Track learning progress with AI-generated insights
@@ -30,15 +30,15 @@ The platform is designed for K-12 education with a focus on safety, scalability,
 ## Key Features
 
 ### For Teachers
-- **Custom AI Syllabus Bots**: Create specialized bots with custom system prompts and personalities
-- **Knowledge Base Integration (RAG)**: Upload PDFs, Word docs, and other materials to enhance bot knowledge
-- **Assessment Creation**: Design AI-graded assessments with custom rubrics
-- **Student Analytics**: Track student progress with AI-generated learning summaries
-- **Classroom Management**: Monitor all student interactions and receive safety alerts
+- **Custom AI Syllabus Bots**: Create specialised bots with custom system prompts
+- **Knowledge Base Integration (RAG)**: Upload PDFs, Word docs, websites and YouTube transcripts to enhance bot knowledge
+- **Assessment Creation**: Design AI-grade, chat-based assessments
+- **Student Analytics**: Track student use of chatbots with AI-generated 'learning memories'
+- **Classroom Management**: Monitor all student interactions and receive safety alerts for concerning use
 - **Bulk Operations**: Import students via CSV, manage multiple bots efficiently
 
 ### For Students
-- **Personalized Learning**: Each bot remembers previous conversations and adapts to learning style
+- **Personalised Learning**: Each bot remembers previous conversations and adapts to learning style
 - **Safe Environment**: Age-appropriate responses with content filtering
 - **Interactive Assessments**: Complete assignments with instant AI feedback
 - **Study Resources**: Access reading materials and generate study guides from conversations
@@ -49,7 +49,7 @@ The platform is designed for K-12 education with a focus on safety, scalability,
 - **Safety Monitoring**: Automated detection of concerning content with escalation protocols
 - **Scalable Infrastructure**: Supports thousands of concurrent users
 - **Data Privacy**: FERPA-compliant with secure data handling
-- **Open Source**: Full control over deployment and customization
+- **Open Source**: Full control over deployment and customisation
 
 ## System Architecture
 
@@ -110,18 +110,20 @@ The platform is designed for K-12 education with a focus on safety, scalability,
 
 ### AI/ML Stack
 - **OpenRouter**: Multi-model AI gateway supporting:
-  - OpenAI GPT-4, GPT-3.5
+  - OpenAI models - GPT-4.1
   - Claude models
   - Google Gemini
   - DeepSeek R1
+  - Grok models
 - **Pinecone**: Vector database for RAG
-- **OpenAI Embeddings**: Document vectorization
+- **OpenAI Embeddings**: Document vectorisation
+- **OpenAI text-to-speech**
 
 ### Infrastructure
 - **Vercel**: Deployment platform with edge network
 - **Redis**: Queue backing for Bull
 - **Bull**: Job queue for async processing
-- **Docker**: Containerization for workers
+- **Docker**: Containerisation for workers
 
 ## Project Structure
 
